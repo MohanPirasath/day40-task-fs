@@ -16,8 +16,8 @@ const date=new Date();
  const year=( date.getFullYear())
 
  const hours=(date.getHours())
-//  const min=("0" +date.getMinutes()).slice(-2)
- const min=(date.getMinutes())
+ const min=("0" +date.getMinutes()).slice(-2)
+//  const min=(date.getMinutes())
  const sec=(date.getSeconds())
 const Time= "The Time is  " + (hours + ":" + min +":" + sec)
 
